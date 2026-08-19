@@ -1,12 +1,10 @@
-# NetFlow ISP Billing — Graphs V2
+NetFlow ISP Billing - Invoice & Customer Status Fix
 
-Updated dashboard analytics:
-- Received = green
-- Pending = red
-- Daily payment target input
-- Daily progress percentage chart
-- Weekly revenue and payments
-- Weekly this-week vs last-week comparison
-- Weekly new customers
-
-The Supabase SQL file is unchanged.
+Fixes:
+- Invoice creation now validates customer, saves a complete invoice, refreshes the invoice count, and opens a printable bill automatically.
+- Billing page shows total, paid, unpaid and partial invoice counts.
+- Added Print Bill action to every invoice.
+- Customer page now has separate All, Paid, Unpaid, Partial and No Invoice filters plus status cards.
+- Customer rows show paid amount, due amount and billing status.
+- Monthly bill generation reports the actual number created.
+- Supabase/SQL was not changed.
