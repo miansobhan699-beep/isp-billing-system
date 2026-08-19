@@ -1,0 +1,18 @@
+{
+  "olts": [
+    {
+      "id": "vsol-01",
+      "name": "VSOL OLT 01",
+      "model": "VSOL EPON OLT",
+      "host": "38.68.84.52",
+      "snmp_port": 161,
+      "snmp_version": "2c",
+      "community": "CHANGE_ME",
+      "web_url": "https://38.68.84.52:308/action/login.html",
+      "location": "Main POP",
+      "timeout": 2.5,
+      "retries": 1,
+      "notes": "Read-only monitoring"
+    }
+  ]
+}
